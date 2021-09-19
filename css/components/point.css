@@ -1,0 +1,8 @@
+.notice {
+  width: 6px;
+  height: 6px;
+  background-color: tomato;
+  border-radius: 50%;
+  display: flex;
+  position: absolute;
+}

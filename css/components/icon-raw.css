@@ -1,0 +1,24 @@
+.icon-raw {
+  display: flex;
+  justify-content: space-between;
+}
+.icon-raw__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 25%;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: color 0.3s ease-in-out;
+  color: rgba(0, 0, 0, 0.6);
+}
+.icon-row__icon:hover {
+  cursor: pointer;
+  color: black;
+}
+.icon-raw__icon i {
+  font-size: 35px;
+}
+.icon-raw__icon span {
+  margin-top: 20px;
+}
